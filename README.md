@@ -1,6 +1,6 @@
 # e203_Four-stageToFive-stage
 蜂鸟E200开源处理器核心
-![Image text](https://github.com/LEAUQEAAN/e203_Four-stageToFive-stage/4_5.png)
+![Image text](https://github.com/LEAUQEAAN/e203_Four-stageToFive-stage/blob/master/4_5.png)
 
 四级流水转化为五级流水步骤：
 *   在EXU模块添加延时再把数据写回
