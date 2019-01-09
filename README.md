@@ -7,8 +7,11 @@
 
  首先下载：https://github.com/LEAUQEAAN/e200_opensource
 
- 下载本项目
+ 先了解二级到三级：https://github.com/LEAUQEAAN/e203_Two-stageToThree-stage 
+ 在了解三级到四级：https://github.com/LEAUQEAAN/e203_Three-stageToFour-stage
  
+ 下载本项目：
+
  将本项目的core替换解压后文件夹里的rtl\e203\core目录
  
  将本项目的verilator替换解压后文件夹里的rtl\verilator目录
