@@ -24,20 +24,6 @@ Limitations
 Installing Verilator
 --------------------
 
-### Installing Packaged Version ###
-
-Instructions from https://github.com/ucb-bar/riscv-sodor
-
-- Ubuntu 17.04 and on
-
-      sudo apt install pkg-config verilator
-      
-- Ubuntu 16.04 and earlier
-
-      sudo apt install pkg-config
-      wget http://mirrors.kernel.org/ubuntu/pool/universe/v/verilator/verilator_3.900-1_amd64.deb
-      sudo dpkg -i verilator_3.900-1_amd64.deb
-
 ### Building from Source ###
 
 Instructions adapted from https://github.com/ucb-bar/riscv-sodor
@@ -65,19 +51,11 @@ Instructions adapted from https://github.com/ucb-bar/riscv-sodor
 
 Building Testbench
 ------------------
-
-To build with default settings:
-
-    make build
-
 To enable VCD dump into `dump.vcd`. Note that the dumping support is compiled
 into the testbench binary and hence you need to rebuild to turn it on and off.
 
-    make build cflags='-DVCDTRACE=1'
-
-To build with Verilator prior to 3.922:
-
-    make build vflags_extra='--trace +define+DISABLE_SV_ASSERTION=1'
+    make build cflags='-DVCDTRACE=1' 
+ 
 
 Running
 -------
