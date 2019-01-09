@@ -8,7 +8,8 @@
  首先下载：https://github.com/LEAUQEAAN/e200_opensource
 
  先了解二级到三级：https://github.com/LEAUQEAAN/e203_Two-stageToThree-stage 
- 在了解三级到四级：https://github.com/LEAUQEAAN/e203_Three-stageToFour-stage
+ 
+ 再了解三级到四级：https://github.com/LEAUQEAAN/e203_Three-stageToFour-stage
  
  下载本项目：
 
